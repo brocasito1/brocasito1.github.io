@@ -1,6 +1,23 @@
 body
 {
-  background-color: #696969;
+  background-color: #ffaa00;
 color: #D3D3D3;
   
+
+}
+
+h1
+{
+  background-color: #ad1cab;
+  color: #de1d1d;
+}
+h3
+{
+  background-color: #2dc2bf;
+  color: #ad1cab;
+}
+h2
+{
+  background-color: #3dff08;
+  color: #29548c;
 }
