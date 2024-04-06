@@ -2,7 +2,7 @@ body
 {
   background-color: #ffaa00;
 color: #D3D3D3;
-  
+margin: 50px;
 
 }
 
@@ -26,4 +26,9 @@ h2
   height: 100px;
 width: 100px ;
 
+}
+button
+{
+  height: 100px;
+  width: 100px ;
 }
