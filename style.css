@@ -185,7 +185,7 @@ body {
         border-radius: 0 40px 0 0;
     }
 }
-.Voltar{ 
+.voltar{ 
   font-family: 'Chakra Petch', sans-serif;
   background-color: var(--botao-inativo);
   color: var(--branco);
