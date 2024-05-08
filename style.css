@@ -116,6 +116,10 @@ body {
     border-radius: 40px 40px 0 0;
 }
 
+.botao:last-child {
+    border-radius: 0 0 40px 40px;
+}
+
 .botoes {
     display: block;
 }
@@ -183,6 +187,7 @@ body {
 
     .botao:last-child {
         border-radius: 0 40px 0 0;
+
     }
 }
 .voltar{ 
