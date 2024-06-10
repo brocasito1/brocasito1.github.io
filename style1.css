@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ou qualquer altura desejada */
+    background-color: #f0f0f0; /* cor de fundo para visualização */
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-button {
+    display: block;
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.image {
+    display: block;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.image-button:hover .image {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.text-container {
+    display: none; /* Inicialmente oculto */
+    margin-top: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
